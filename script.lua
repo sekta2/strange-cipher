@@ -43,4 +43,12 @@ function cipher(text)
     print("Cipher length: ", string.len(cip))
 end
 
-cipher("Hello! This is strange cipher") -- dq-"is|\q;s&>d?
+cipher([[Hello World]])
+
+-- Hello Stages:
+--
+-- dq-"is|\q;s&>d? -- Stage 1
+-- s$|ig8]f        -- Stage 2
+-- -\)=            -- Stage 3
+-- _p              -- Stage 4
+-- !               -- Stage 5
